@@ -1,0 +1,57 @@
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+.container{
+margin-top:40px;
+}
+
+.avatar-box{
+position:relative;
+width:300px;
+margin:auto;
+}
+
+#avatar{
+width:300px;
+border-radius:10px;
+}
+
+#mouth{
+width:60px;
+height:20px;
+background:black;
+position:absolute;
+bottom:40px;
+left:50%;
+transform:translateX(-50%);
+border-radius:20px;
+animation:none;
+}
+
+.talking{
+animation:talk 0.2s infinite;
+}
+
+@keyframes talk{
+0%{height:10px}
+50%{height:30px}
+100%{height:10px}
+}
+
+textarea{
+width:300px;
+height:120px;
+margin-top:20px;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+background:#0077ff;
+color:white;
+border:none;
+cursor:pointer;
+}
