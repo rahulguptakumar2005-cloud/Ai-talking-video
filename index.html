@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Talking Avatar</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Talking Avatar Generator</h1>
+
+<input type="file" id="imageUpload" accept="image/*">
+
+<div class="avatar-box">
+<img id="avatar">
+<div id="mouth"></div>
+</div>
+
+<textarea id="text" placeholder="Write what avatar should speak"></textarea>
+
+<button onclick="startTalking()">Generate Talking Avatar</button>
+
+<button id="downloadBtn">Download Video</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
